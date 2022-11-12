@@ -1,0 +1,29 @@
+
+
+***     you could simply delete all songs added more than a month ago to get rid of old ones ...
+***     you have to fix the start_time
+
+***     should you have an option where they can just continually update their playlist? perhaps $20/year for constant updating ... ?
+
+
+
+***     is it possible to just webscrape twitter search results...
+
+limitations:
+
+*   just going to do the 7-day search to start...
+*   
+
+do spotify playlists keep some kind of cache of songs that have been deleted?
+eventually we would want to make sure that if a user tried to generate another playlist, but
+had deleted songs from a previously created playlist, that those deleted songs would not be added...
+
+
+
+You make things work in get_all_songs() by having a limit=100 parameter...potentially after searching ~20 accounts you
+could wind up with more than 100 songs and so some will be missed...
+
+
+
+
+
